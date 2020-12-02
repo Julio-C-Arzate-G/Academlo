@@ -1,0 +1,59 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Syne+Mono&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Syne+Mono&display=swap");
+* {
+  /* font-family: sans-serif; */
+  margin: 0%;
+  padding: 0%;
+  /* font-family: "Major Mono Display", monospace; */
+  /* font-family: "Syne Mono", monospace; */
+  font-family: "Architects Daughter", cursive;
+  /* font-family: "Rajdhani", sans-serif; */
+}
+body {
+  background-color: black;
+}
+
+/* 
+========================== Banner ===========================
+*/
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(158, 158, 158, 0.38);
+  background-image: url(astronaut-spacewalk-iss-tools.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: auto;
+  border: solid 3px navy;
+}
+
+/* 
+========================== Helpers ============================
+*/
+.primary-text {
+  color: #004ba0;
+  /* text-align: center; En lugar de ponerlo abajo*/
+  text-shadow: 1px 1px 1px #eceff1;
+  font-size: 2em;
+}
+.text-center {
+  text-align: center;
+}
+.space-top {
+  margin-top: 15px;
+}
+
+/* 
+========================== Components ===========================
+*/
+.primary-button {
+  border-radius: 10px;
+  background-color: navy;
+  color: white;
+  padding: 15px 30px;
+  /* box-shadow: 3px 3px 3px cyan; */
+}
